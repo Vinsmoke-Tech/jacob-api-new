@@ -121,7 +121,7 @@ class AuthController extends Controller
         $fields = $request->validate([
             'member_no'         => 'required|string',
             'password'          => 'required|string',
-            'system_version'    => 'required|string',
+            'system_version'    => '',
         ]);
 
         //Check username
